@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/IVMaster"
             android:src="@drawable/master"
             android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             android:layout_weight="1"
             android:scaleType="centerCrop"
             />
-        <ImageView
+        <ImageButton
             android:id="@+id/IVTransaksi"
             android:src="@drawable/transaksi"
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:layout_weight="1"
             android:scaleType="centerCrop"
             android:layout_marginTop="5dp"/>
-        <ImageView
+        <ImageButton
             android:id="@+id/IVLaporan"
             android:src="@drawable/laporan"
             android:layout_width="match_parent"
